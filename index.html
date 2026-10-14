@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Upside · Bodyweight training, one step at a time</title>
+<meta name="description" content="Upside is a calisthenics coach for beginners. It tells you which exercise to do today, how to do it right, and when you are ready for the next step.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B1912">
+<meta property="og:title" content="Upside">
+<meta property="og:description" content="From your first push-up to your first pull-up. One step at a time.">
+<meta property="og:image" content="img/icon.png">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preload" href="fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <a class="nav-brand" href="#top" aria-label="Upside, back to top">
+    <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 78 V46 A20 20 0 0 1 70 46 V78"/><circle cx="50" cy="43" r="8"/></svg>
+    <span>upside</span>
+  </a>
+  <nav aria-label="Sections">
+    <a href="#how">How it works</a>
+    <a href="#ladders">Ladders</a>
+    <a href="#goals">Goals</a>
+  </nav>
+  <a class="btn btn-small" href="#beta">Beta</a>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot-live" aria-hidden="true"></span>Calisthenics for beginners · Coming to iPhone</p>
+      <h1 class="wordmark" aria-label="Upside"><span class="flip" aria-hidden="true">u</span><span aria-hidden="true">pside</span></h1>
+      <p class="lede">From your first push-up to your first pull-up. <em>One step at a time.</em></p>
+      <p class="sub">Upside is a coach in your pocket. It tells you which exercise to do today, how to do it right, and when you are ready for the next step.</p>
+      <div class="cta-row">
+        <a class="btn" href="#beta">Join the beta</a>
+        <a class="btn btn-ghost" href="#how">See how it works</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="big-mark">
+        <svg viewBox="0 0 100 100">
+          <defs>
+            <linearGradient id="glass" x1="0" y1="0" x2="0.4" y2="1">
+              <stop offset="0" stop-color="#FFFFFF"/>
+              <stop offset="1" stop-color="#CFE3D6" stop-opacity="0.7"/>
+            </linearGradient>
+            <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+          </defs>
+          <path d="M30 78 V46 A20 20 0 0 1 70 46 V78" stroke="url(#glass)" stroke-width="15" stroke-linecap="round" fill="none"/>
+          <path d="M33.5 72 V46 A16.5 16.5 0 0 1 50 29.5" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <g class="rep">
+            <circle cx="50" cy="70" r="12" fill="#FFC845" opacity="0.55" filter="url(#glow)"/>
+            <circle cx="50" cy="70" r="8" fill="#FFC845"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="phone phone-hero">
+        <div class="screen today">
+          <div class="today-head">
+            <span class="mono muted">WED, OCT 14</span>
+            <span class="streak"><i></i>4 days</span>
+          </div>
+          <p class="today-title">Hey Sam, ready to train?</p>
+          <div class="card">
+            <div class="card-head"><span class="card-title">Your session</span><span class="mono muted">4 · 30 MIN</span></div>
+            <div class="row">
+              <span class="thumb"></span>
+              <div class="row-main"><span class="ex">Australian row</span><span class="seg" style="--done:2;--now:3"></span></div>
+              <span class="mono">3×12<br><small>PULL 03/07</small></span>
+            </div>
+            <div class="row row-hl">
+              <span class="thumb"></span>
+              <div class="row-main"><span class="ex">Push-up <b class="chip">Test ready</b></span><span class="seg" style="--done:4;--now:5"></span></div>
+              <span class="mono">3×5<br><small>PUSH 05/07</small></span>
+            </div>
+            <div class="row">
+              <span class="thumb"></span>
+              <div class="row-main"><span class="ex">Split squat</span><span class="seg" style="--done:2;--now:3"></span></div>
+              <span class="mono">3×10<br><small>SQUAT 03/07</small></span>
+            </div>
+            <div class="row">
+              <span class="thumb"></span>
+              <div class="row-main"><span class="ex">Dead bug</span><span class="seg" style="--done:1;--now:2"></span></div>
+              <span class="mono">3×10<br><small>CORE 02/07</small></span>
+            </div>
+          </div>
+          <span class="phone-cta">Start session</span>
+        </div>
+      </div>
+
+      <div class="float-chip chip-a"><b>Level up</b> Flexed-arm hang unlocked</div>
+      <div class="float-chip chip-b"><span class="mono">PULL</span> <span class="seg seg-inline" style="--done:3;--now:4"></span> <span class="mono">04/07</span></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Dead hang</span><i></i><span>Australian row</span><i></i><span>Negative pull-up</span><i></i><span>Pull-up</span><i></i><span>Hollow hold</span><i></i><span>L-sit</span><i></i><span>Pistol squat</span><i></i><span>Diamond push-up</span><i></i><span>Front lever</span><i></i><span>Human flag</span><i></i>
+      <span>Dead hang</span><i></i><span>Australian row</span><i></i><span>Negative pull-up</span><i></i><span>Pull-up</span><i></i><span>Hollow hold</span><i></i><span>L-sit</span><i></i><span>Pistol squat</span><i></i><span>Diamond push-up</span><i></i><span>Front lever</span><i></i><span>Human flag</span><i></i>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <p class="label">01 / How it works</p>
+    <h2 class="h2 reveal">Know what to train. <span class="soft">Every single day.</span></h2>
+    <ol class="steps">
+      <li class="step reveal">
+        <span class="step-n">01</span>
+        <h3>Take the 5-minute level test</h3>
+        <p>A few max sets and a plank on the clock. Upside places you on the right step of every ladder, so you never start too easy or too hard.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">02</span>
+        <h3>Train the session it builds for you</h3>
+        <p>Two to four times a week, 20 to 45 minutes. Each exercise comes with three cues, the two most common mistakes and a rest timer.</p>
+      </li>
+      <li class="step reveal">
+        <span class="step-n">03</span>
+        <h3>Pass a test set, unlock the next step</h3>
+        <p>No guessing. Hit the target in a test set and you climb a rung. Too heavy today? Take it easier, without losing anything.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- LADDER SCROLL STORY -->
+  <section class="climb" id="climb" aria-labelledby="climb-title">
+    <div class="climb-sticky">
+      <div class="climb-copy">
+        <p class="label">02 / The ladder</p>
+        <h2 class="h2" id="climb-title">Every skill is a ladder.</h2>
+        <p class="climb-text">Seven steps from where you are to where you want to be. This is the pull-up ladder: scroll to climb it.</p>
+        <div class="climb-now" aria-live="polite">
+          <span class="mono muted">STEP <b id="climb-num">01</b>/07</span>
+          <span class="climb-name" id="climb-name">Dead hang</span>
+          <span class="climb-target mono" id="climb-target">3 × 30 s</span>
+        </div>
+      </div>
+      <div class="ladder" id="ladder">
+        <span class="rail rail-l" aria-hidden="true"></span>
+        <span class="rail rail-r" aria-hidden="true"></span>
+        <ol class="rungs">
+          <li data-name="Pull-up volume" data-target="3 × 8"><span class="rung"></span><span class="rung-label">07 · Pull-up volume</span></li>
+          <li data-name="Pull-up" data-target="3 × 3"><span class="rung"></span><span class="rung-label">06 · Pull-up</span></li>
+          <li data-name="Negative pull-up" data-target="3 × 5, 5 s down"><span class="rung"></span><span class="rung-label">05 · Negative pull-up</span></li>
+          <li data-name="Flexed-arm hang" data-target="3 × 15 s"><span class="rung"></span><span class="rung-label">04 · Flexed-arm hang</span></li>
+          <li data-name="Australian row" data-target="3 × 12"><span class="rung"></span><span class="rung-label">03 · Australian row</span></li>
+          <li data-name="Scapula pull-up" data-target="3 × 10"><span class="rung"></span><span class="rung-label">02 · Scapula pull-up</span></li>
+          <li data-name="Dead hang" data-target="3 × 30 s"><span class="rung"></span><span class="rung-label">01 · Dead hang</span></li>
+        </ol>
+        <span class="climber" id="climber" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUR LADDERS BENTO -->
+  <section class="section" id="ladders">
+    <p class="label">03 / Four ladders</p>
+    <h2 class="h2 reveal">The whole body. <span class="soft">Twenty-eight steps.</span></h2>
+    <div class="bento">
+      <article class="tile tile-push reveal">
+        <span class="mono muted">PUSH · 7 STEPS</span>
+        <h3>Push-up</h3>
+        <p class="path"><span>Wall push-up</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Diamond push-up</span></p>
+        <span class="seg seg-big" style="--done:7;--now:8" aria-hidden="true"></span>
+      </article>
+      <article class="tile tile-pull reveal">
+        <span class="mono muted">PULL · 7 STEPS</span>
+        <h3>Pull-up</h3>
+        <p class="path"><span>Dead hang</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>8 strict pull-ups</span></p>
+        <p class="tile-note">No bar at home? Upside pauses this ladder until you find one.</p>
+        <span class="seg seg-big" style="--done:7;--now:8" aria-hidden="true"></span>
+      </article>
+      <article class="tile tile-squat reveal">
+        <span class="mono muted">SQUAT · 7 STEPS</span>
+        <h3>Squat</h3>
+        <p class="path"><span>Box squat</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>Box pistol</span></p>
+        <span class="seg seg-big" style="--done:7;--now:8" aria-hidden="true"></span>
+      </article>
+      <article class="tile tile-core reveal">
+        <span class="mono muted">CORE · 7 STEPS</span>
+        <h3>Core</h3>
+        <p class="path"><span>Plank</span><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg><span>One-leg L-sit</span></p>
+        <span class="seg seg-big" style="--done:7;--now:8" aria-hidden="true"></span>
+      </article>
+      <article class="tile tile-phone reveal">
+        <div class="phone phone-small">
+          <div class="screen levelup">
+            <span class="mono lu-label">LEVEL UP</span>
+            <span class="lu-num">04<small>/07</small></span>
+            <span class="lu-title">You unlocked step 4</span>
+            <span class="lu-ex">Flexed-arm hang · 3 × 15 s</span>
+            <span class="seg seg-ink" style="--done:3;--now:4"></span>
+            <span class="lu-cta">Keep going</span>
+          </div>
+        </div>
+        <div class="tile-phone-copy">
+          <h3>Earn the loud moment.</h3>
+          <p>Every level-up is a small party. You only get one when you really earned it.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- GOALS -->
+  <section class="section goals" id="goals">
+    <p class="label">04 / What you can reach</p>
+    <h2 class="h2 reveal">Finish the basics. <span class="soft">Then go for the skills you saw on Instagram.</span></h2>
+    <p class="goals-intro reveal">Six ultimate goals unlock once your ladders are strong enough. Each one is its own path of steps, with a target and a rough number of weeks per step.</p>
+    <div class="goal-rail" tabindex="0" aria-label="Ultimate goals, scroll sideways">
+      <article class="goal">
+        <span class="goal-n">01</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="20" y1="10" x2="100" y2="10"/><line class="arm" x1="54" y1="10" x2="54" y2="34"/><line class="core" x1="57" y1="37" x2="110" y2="37"/><circle cx="45" cy="38" r="6.5"/></svg>
+        <h3>Front lever</h3>
+        <p class="mono muted">NEEDS PULL 7 · CORE 7</p>
+        <p>Tuck, advanced tuck, one leg, straddle, full.</p>
+      </article>
+      <article class="goal">
+        <span class="goal-n">02</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="16" y1="4" x2="16" y2="78"/><line class="arm" x1="16" y1="18" x2="30" y2="32"/><line class="arm" x1="16" y1="56" x2="30" y2="40"/><line class="core" x1="33" y1="36" x2="110" y2="36"/><circle cx="36" cy="22" r="6.5"/></svg>
+        <h3>Human flag</h3>
+        <p class="mono muted">NEEDS PULL 7 · PUSH 7 · CORE 7</p>
+        <p>Side plank, vertical flag, tuck flag, straddle, full.</p>
+      </article>
+      <article class="goal">
+        <span class="goal-n">03</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="10" y1="74" x2="110" y2="74"/><line class="arm" x1="50" y1="74" x2="50" y2="54"/><line class="core" x1="53" y1="51" x2="110" y2="51"/><circle cx="40" cy="48" r="6.5"/></svg>
+        <h3>Planche</h3>
+        <p class="mono muted">NEEDS PUSH 7 · CORE 7</p>
+        <p>Lean, frog stand, tuck, advanced tuck, straddle, full.</p>
+      </article>
+      <article class="goal">
+        <span class="goal-n">04</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="108" y1="4" x2="108" y2="76"/><line class="prop" x1="10" y1="76" x2="110" y2="76"/><line class="arm" x1="80" y1="76" x2="84" y2="56"/><line class="arm" x1="96" y1="76" x2="92" y2="56"/><line class="core" x1="88" y1="52" x2="94" y2="8"/><circle cx="88" cy="66" r="6.5"/></svg>
+        <h3>Handstand push-up</h3>
+        <p class="mono muted">NEEDS PUSH 7 · CORE 5</p>
+        <p>Pike, elevated pike, wall handstand, negatives, full.</p>
+      </article>
+      <article class="goal">
+        <span class="goal-n">05</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="8" y1="74" x2="76" y2="74"/><line class="arm" x1="24" y1="66" x2="10" y2="60"/><line class="core" x1="28" y1="64" x2="104" y2="16"/><circle cx="18" cy="68" r="6.5"/></svg>
+        <h3>Dragon flag</h3>
+        <p class="mono muted">NEEDS CORE 7</p>
+        <p>Leg raise, tuck negative, one-leg negative, negative, full.</p>
+      </article>
+      <article class="goal">
+        <span class="goal-n">06</span>
+        <svg class="goal-fig" viewBox="0 0 120 80" aria-hidden="true"><line class="prop" x1="20" y1="10" x2="100" y2="10"/><line class="arm" x1="64" y1="10" x2="56" y2="34"/><line class="core" x1="58" y1="37" x2="110" y2="37"/><circle cx="46" cy="40" r="6.5"/></svg>
+        <h3>Back lever</h3>
+        <p class="mono muted">NEEDS PULL 7 · PUSH 6</p>
+        <p>German hang, tuck, advanced tuck, straddle, full.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES -->
+  <section class="section principles">
+    <p class="label">05 / A coach, not a drill sergeant</p>
+    <h2 class="h2 reveal">Built for people who <span class="soft">don't feel strong enough yet.</span></h2>
+    <div class="glass-grid">
+      <div class="glass reveal">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+        <h3>Honest level-ups</h3>
+        <p>You move up through a test set with a clear target, plus a quick form check. Never on a feeling.</p>
+      </div>
+      <div class="glass reveal">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>
+        <h3>Technique before volume</h3>
+        <p>Three cues and the two most common mistakes for every step, with a moving figure that shows you how.</p>
+      </div>
+      <div class="glass reveal">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5M6 13l6 6 6-6"/></svg>
+        <h3>Take it easier</h3>
+        <p>Something hurts, or two sets felt maxed out? Upside steps you back, without shame and without losing your progress.</p>
+      </div>
+      <div class="glass reveal">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 20h18M6 20V9l6-5 6 5v11"/></svg>
+        <h3>Works in the park</h3>
+        <p>Everything lives on your phone. No account, no signal needed. Just you, a bar and a bit of grass.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEVELS -->
+  <section class="section levels">
+    <p class="label">06 / Grow into it</p>
+    <h2 class="h2 reveal">From Starter <span class="soft">to Master.</span></h2>
+    <ol class="level-row">
+      <li class="reveal"><span class="badge b1">1</span><b>Starter</b><span class="mono muted">0 STEPS</span></li>
+      <li class="reveal"><span class="badge b2">2</span><b>Mover</b><span class="mono muted">4 STEPS</span></li>
+      <li class="reveal"><span class="badge b3">3</span><b>Builder</b><span class="mono muted">9 STEPS</span></li>
+      <li class="reveal"><span class="badge b4">4</span><b>Athlete</b><span class="mono muted">15 STEPS</span></li>
+      <li class="reveal"><span class="badge b5">5</span><b>Skill hunter</b><span class="mono muted">21 STEPS</span></li>
+      <li class="reveal"><span class="badge b6">6</span><b>Master</b><span class="mono muted">28 STEPS</span></li>
+    </ol>
+  </section>
+
+  <!-- BETA / FINAL -->
+  <section class="final" id="beta">
+    <div class="final-glow" aria-hidden="true"></div>
+    <svg class="final-mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 78 V46 A20 20 0 0 1 70 46 V78"/><g class="rep"><circle cx="50" cy="70" r="8"/></g></svg>
+    <h2 class="final-title reveal">There's always<br>an <span class="flip-word">upside.</span></h2>
+    <p class="final-sub reveal">The free beta opens on iPhone in early 2027. Push-up, pull-up, squat and core, in English and Dutch.</p>
+    <div class="store-badge reveal" role="img" aria-label="Coming soon to the App Store">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.9-.9-3.1-.8C6.8 7.4 5.3 8.3 4.5 9.8c-1.7 2.9-.4 7.2 1.2 9.6.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8s1.9.8 3.1.8c1.3 0 2.1-1.2 2.9-2.3.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.7-1-2.7-4.2zM14.1 5.6c.6-.8 1.1-1.9 1-3-.9 0-2.1.6-2.7 1.4-.6.7-1.1 1.8-1 2.9 1 .1 2.1-.5 2.7-1.3z"/></svg>
+      <span><small>Coming soon to the</small>App Store</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span class="nav-brand"><svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 78 V46 A20 20 0 0 1 70 46 V78"/><circle cx="50" cy="43" r="8"/></svg><span>upside</span></span>
+  <span class="muted">A side project by <a href="https://aronbakker.nl">Aron Bakker</a> · © 2026</span>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
